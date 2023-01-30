@@ -1,0 +1,13 @@
+Casos de Teste:
+
+1- Imprimir cardápio
+2- Imprimir pilha de chocolates sem nenhum chocolate entregue
+3- Imprimir a fila de clientes sem nenhum cliente adicionado 
+4- Adicao de cliente a fila com 1 item na comanda
+5- Adicao de cliente a fila com todos os 10 itens na comanda
+6- Adicao de cliente sem itens na comanda (sem consumo)
+7- Imprimir pilha de chocolates após atendimento a clientes
+8- Imprimir fila de clientes, com seus respectivos chocolates
+9- Tentar adicionar cliente com a fila cheia
+10- Tentativa de adicionar item a comanda com ID que não 
+pertence ao cardapio
