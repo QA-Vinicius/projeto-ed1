@@ -3,7 +3,7 @@
 #include <string.h>
 
 #define MAX_ITEMS 100
-#define MAX_CLIENTES 5
+#define MAX_CLIENTES 100
 #define MAX_CHOCOLATE 20
 
 //Declaracao da estrutura Item
@@ -55,6 +55,9 @@ void print_fila(int num_cliente) {
     }
     for (int i = 0; i < num_cliente; i++) {
         printf("   %do) %s: Chocolate %d\n", i+1, filaClientes[i].nome_cliente, filaClientes[i].chocolate);
+    }
+    if(num_cliente == MAX_CLIENTES){
+        printf("   A fila esta cheia!\n");
     }
 }
 
